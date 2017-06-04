@@ -1,0 +1,4 @@
+com.mhook.MrSFastTranslation.Moble
+com.mhook.MrSFastTranslation.Moble: void handleLoadPackage(de.robv.android.xposed.callbacks.XC_LoadPackage$LoadPackageParam)
+com.mhook.MrSFastTranslation.SettingActivity
+com.mhook.MrSFastTranslation.SettingActivity: boolean isat39()

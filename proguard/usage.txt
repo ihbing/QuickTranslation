@@ -1,0 +1,122 @@
+adrt.ADRTSender:
+    7:7:public ADRTSender()
+    20:25:public static void sendConnect(java.lang.String)
+    29:34:public static void sendStop(java.lang.String)
+    40:52:public static void sendBreakpointHit(java.lang.String,java.util.ArrayList,java.util.ArrayList,java.util.ArrayList,java.util.ArrayList,java.util.ArrayList,java.util.ArrayList)
+    57:66:public static void sendFields(java.lang.String,java.lang.String,java.util.ArrayList,java.util.ArrayList,java.util.ArrayList)
+com.mhook.MrSFastTranslation.AllResources:
+    70:70:public AllResources()
+com.mhook.MrSFastTranslation.Moble:
+    android.widget.TextView textV
+com.mhook.MrSFastTranslation.Moble$100000000:
+    static com.mhook.MrSFastTranslation.Moble access$0(com.mhook.MrSFastTranslation.Moble$100000000)
+com.mhook.MrSFastTranslation.Moble$100000001:
+    static com.mhook.MrSFastTranslation.Moble access$0(com.mhook.MrSFastTranslation.Moble$100000001)
+com.mhook.MrSFastTranslation.Moble$100000003$100000002:
+    static com.mhook.MrSFastTranslation.Moble$100000003 access$0(com.mhook.MrSFastTranslation.Moble$100000003$100000002)
+com.mhook.MrSFastTranslation.Moble$100000004:
+    static com.mhook.MrSFastTranslation.Moble access$0(com.mhook.MrSFastTranslation.Moble$100000004)
+com.mhook.MrSFastTranslation.Moble$100000006:
+    static com.mhook.MrSFastTranslation.Moble access$0(com.mhook.MrSFastTranslation.Moble$100000006)
+com.mhook.MrSFastTranslation.Moble$100000006$100000005:
+    static com.mhook.MrSFastTranslation.Moble$100000006 access$0(com.mhook.MrSFastTranslation.Moble$100000006$100000005)
+com.mhook.MrSFastTranslation.SettingActivity:
+    android.widget.TextView modeDescription
+com.mhook.MrSFastTranslation.SettingActivity$100000000:
+    static com.mhook.MrSFastTranslation.SettingActivity access$0(com.mhook.MrSFastTranslation.SettingActivity$100000000)
+com.mhook.MrSFastTranslation.SettingActivity$100000001:
+    static com.mhook.MrSFastTranslation.SettingActivity access$0(com.mhook.MrSFastTranslation.SettingActivity$100000001)
+com.mhook.MrSFastTranslation.SettingActivity$100000004:
+    static com.mhook.MrSFastTranslation.SettingActivity access$0(com.mhook.MrSFastTranslation.SettingActivity$100000004)
+com.mhook.MrSFastTranslation.SettingActivity$100000004$100000002:
+    static com.mhook.MrSFastTranslation.SettingActivity$100000004 access$0(com.mhook.MrSFastTranslation.SettingActivity$100000004$100000002)
+com.mhook.MrSFastTranslation.SettingActivity$100000004$100000003:
+    static com.mhook.MrSFastTranslation.SettingActivity$100000004 access$0(com.mhook.MrSFastTranslation.SettingActivity$100000004$100000003)
+com.mhook.MrSFastTranslation.Utils.AlertUtils:
+    15:15:public static void Alert(android.content.Context,java.lang.String)
+    22:22:public static void DiyViewAlert(android.content.Context,java.lang.String,android.view.View)
+    28:28:public static void DiyViewAlert(android.content.Context,java.lang.String,android.graphics.drawable.Drawable,android.view.View)
+    38:38:public static void DiyViewAlertWithOneBtn(android.content.Context,java.lang.String,android.view.View,java.lang.String,android.content.DialogInterface$OnClickListener)
+    46:46:public static void DiyViewAlertWithOneBtn(android.content.Context,java.lang.String,android.graphics.drawable.Drawable,android.view.View,java.lang.String,android.content.DialogInterface$OnClickListener)
+    58:58:public static void DiyViewAlertWithTwoBtn(android.content.Context,java.lang.String,android.view.View,java.lang.String,android.content.DialogInterface$OnClickListener,java.lang.String,android.content.DialogInterface$OnClickListener)
+    76:76:public static void OneBtnAlert(android.content.Context,java.lang.String,java.lang.String,java.lang.String,android.content.DialogInterface$OnClickListener)
+    82:82:public static void OneBtnAlert(android.content.Context,java.lang.String,android.graphics.drawable.Drawable,java.lang.String,java.lang.String,android.content.DialogInterface$OnClickListener)
+    93:93:public static void TwoBtnAlert(android.content.Context,java.lang.String,java.lang.String,java.lang.String,android.content.DialogInterface$OnClickListener,java.lang.String,android.content.DialogInterface$OnClickListener)
+    103:103:public static void TwoBtnAlert(android.content.Context,java.lang.String,android.graphics.drawable.Drawable,java.lang.String,java.lang.String,android.content.DialogInterface$OnClickListener,java.lang.String,android.content.DialogInterface$OnClickListener)
+    163:163:public AlertUtils()
+com.mhook.MrSFastTranslation.Utils.AppUtils:
+    37:52:public static boolean isNetworkAvailable(android.content.Context)
+    59:59:public static java.lang.String GetUid(android.content.Context,java.lang.String)
+    65:65:public static java.lang.String GetUid(android.content.Context)
+    71:71:public static java.lang.String GetPid(android.content.Context,java.lang.String)
+    77:77:public static java.lang.String GetPid(android.content.Context)
+    83:83:public static java.lang.String GetProcessName(android.content.Context,java.lang.String)
+    89:89:public static java.lang.String GetProcessName(android.content.Context)
+    96:129:public static java.lang.String GetAppInfo(android.content.Context,java.lang.String,int)
+    157:157:public static void ClearSelfShared_PrefsData(android.content.Context)
+    163:163:public static void ClearSelfCacheData(android.content.Context)
+    169:169:public static void ClearSelfFilesData(android.content.Context)
+    258:265:public static java.lang.String getAppName(android.content.Context)
+    281:290:public static java.lang.String getVersionName(android.content.Context)
+    304:313:public static int getVersionCode(android.content.Context)
+    319:330:public static java.lang.String GetSystemApks(android.content.Context)
+    337:349:public static java.lang.String GetPkgName(android.content.Context,android.content.Intent)
+    357:361:public static java.lang.String GetLauncherPkgName(android.content.Context)
+    368:370:public static java.lang.String GetPhonePkgName(android.content.Context)
+    378:382:public static java.lang.String GetSmsPkgName(android.content.Context)
+    390:392:public static java.lang.String GetCameraPkgName(android.content.Context)
+    413:413:public AppUtils()
+com.mhook.MrSFastTranslation.Utils.BroadcastUtils:
+    27:31:public static void SendBroadcast(android.content.Context,java.lang.String,java.lang.String)
+    45:45:public BroadcastUtils()
+com.mhook.MrSFastTranslation.Utils.FileUtils
+com.mhook.MrSFastTranslation.Utils.IntentUtils:
+    13:13:public static void OpenQQPerson(android.content.Context,java.lang.String)
+    31:31:public static void OpenUrl(android.content.Context,java.lang.String)
+    38:46:public static void OpenShare(android.content.Context,java.lang.String)
+    64:64:public static void OpenBrowser(android.content.Context,java.lang.String)
+    70:70:public static void OpenVideoPlayer(android.content.Context,java.lang.String)
+    105:105:public IntentUtils()
+com.mhook.MrSFastTranslation.Utils.NXmlUtils
+com.mhook.MrSFastTranslation.Utils.SPUtils:
+    27:29:public SPUtils(java.lang.String)
+    130:134:public static void remove(android.content.Context,java.lang.String)
+    162:164:public static boolean contains(android.content.Context,java.lang.String)
+    176:178:public static java.util.Map getAll(android.content.Context)
+com.mhook.MrSFastTranslation.Utils.SPUtils$SharedPreferencesCompat:
+    232:232:public SPUtils$SharedPreferencesCompat()
+com.mhook.MrSFastTranslation.Utils.ShellUtils:
+    public static final java.lang.String COMMAND_SU
+    public static final java.lang.String COMMAND_SH
+    public static final java.lang.String COMMAND_EXIT
+    public static final java.lang.String COMMAND_LINE_END
+    65:65:public static com.mhook.MrSFastTranslation.Utils.ShellUtils$CommandResult execCommand(java.util.List,boolean)
+    77:77:public static com.mhook.MrSFastTranslation.Utils.ShellUtils$CommandResult execCommand(java.lang.String[],boolean)
+    218:218:public ShellUtils()
+com.mhook.MrSFastTranslation.Utils.ShellUtils$CommandResult:
+    209:210:public ShellUtils$CommandResult(int)
+com.mhook.MrSFastTranslation.Utils.T:
+    15:17:T()
+    63:64:public static void showShort(android.content.Context,java.lang.CharSequence)
+    75:76:public static void showShort(android.content.Context,int)
+    87:88:public static void showLong(android.content.Context,java.lang.CharSequence)
+    99:100:public static void showLong(android.content.Context,int)
+com.mhook.MrSFastTranslation.Utils.Utils:
+    39:39:public static void printf(android.content.Context,java.lang.String)
+    136:152:public static java.lang.String execAdb(java.lang.String)
+    154:154:public Utils()
+com.mhook.MrSFastTranslation.Utils.XmlUtils:
+    29:31:public XmlUtils(java.lang.String)
+    37:37:public static long GetLong(java.lang.String,long)
+    43:43:public static float GetFloat(java.lang.String,float)
+    55:55:public static int GetInt(java.lang.String,int)
+    137:137:public static void PutFloat(java.lang.String,float)
+    144:144:public static void PutBoolean(java.lang.String,boolean)
+    151:151:public static void PutLong(java.lang.String,long)
+    165:165:public static void PutInt(java.lang.String,int)
+com.mhook.MrSFastTranslation.htmlyuan:
+    71:71:public htmlyuan()
+com.mhook.MrSFastTranslation.kqwToast:
+    public void createFyList(android.widget.TextView)
+com.mhook.MrSFastTranslation.layUtils:
+    160:160:public layUtils()

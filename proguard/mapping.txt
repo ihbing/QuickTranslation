@@ -1,0 +1,226 @@
+adrt.ADRTLogCatReader -> a.a:
+    android.content.Context context -> a
+    void <init>() -> <init>
+    void onContext(android.content.Context,java.lang.String) -> a
+    void run() -> run
+adrt.ADRTSender -> a.b:
+    android.content.Context context -> a
+    java.lang.String debuggerPackageName -> b
+    void onContext(android.content.Context,java.lang.String) -> a
+    void sendLogcatLines(java.lang.String[]) -> a
+com.mhook.MrSFastTranslation.AllResources -> com.mhook.MrSFastTranslation.a:
+    java.lang.String pkgname -> a
+    java.lang.String ApkVersion -> b
+    java.lang.String sharename -> c
+    java.lang.String ShareIsFirstRun -> d
+    java.lang.String apkurl -> e
+    java.lang.String alipayurl -> f
+    java.lang.String QQgroup -> g
+    java.lang.String apkIntroduction -> h
+    java.lang.String logpath -> i
+    java.lang.String ReceiverAction -> j
+    java.lang.String WhiteCharacter -> k
+    java.lang.String BlackCharacter -> l
+    java.lang.String ShareWhiteCharacter -> m
+    java.lang.String ShareBlackCharacter -> n
+    java.lang.String ShareOpenBlackRules -> o
+    java.lang.String ShareOpenWhiteRules -> p
+    java.lang.String ShareZoom -> q
+    java.lang.String ShareInputPkgName -> r
+    java.lang.String ShareXposedEnable -> s
+    java.lang.String SystemUIPkgName -> t
+    java.lang.String SouGouPkgName -> u
+    java.lang.String Tail -> v
+    void <clinit>() -> <clinit>
+com.mhook.MrSFastTranslation.Moble -> com.mhook.MrSFastTranslation.Moble:
+    de.robv.android.xposed.XSharedPreferences xsp_fanyi_mode -> a
+    android.content.Context mContext -> b
+    void handleLoadPackage(de.robv.android.xposed.callbacks.XC_LoadPackage$LoadPackageParam) -> handleLoadPackage
+    void <init>() -> <init>
+com.mhook.MrSFastTranslation.Moble$100000000 -> com.mhook.MrSFastTranslation.b:
+    com.mhook.MrSFastTranslation.Moble this$0 -> a
+    void <init>(com.mhook.MrSFastTranslation.Moble) -> <init>
+    void afterHookedMethod(de.robv.android.xposed.XC_MethodHook$MethodHookParam) -> afterHookedMethod
+com.mhook.MrSFastTranslation.Moble$100000001 -> com.mhook.MrSFastTranslation.c:
+    com.mhook.MrSFastTranslation.Moble this$0 -> a
+    void <init>(com.mhook.MrSFastTranslation.Moble) -> <init>
+    void beforeHookedMethod(de.robv.android.xposed.XC_MethodHook$MethodHookParam) -> beforeHookedMethod
+com.mhook.MrSFastTranslation.Moble$100000003 -> com.mhook.MrSFastTranslation.d:
+    com.mhook.MrSFastTranslation.Moble this$0 -> a
+    void <init>(com.mhook.MrSFastTranslation.Moble) -> <init>
+    void beforeHookedMethod(de.robv.android.xposed.XC_MethodHook$MethodHookParam) -> beforeHookedMethod
+    com.mhook.MrSFastTranslation.Moble access$0(com.mhook.MrSFastTranslation.Moble$100000003) -> a
+com.mhook.MrSFastTranslation.Moble$100000003$100000002 -> com.mhook.MrSFastTranslation.e:
+    com.mhook.MrSFastTranslation.Moble$100000003 this$0 -> a
+    void <init>(com.mhook.MrSFastTranslation.Moble$100000003) -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.mhook.MrSFastTranslation.Moble$100000004 -> com.mhook.MrSFastTranslation.f:
+    com.mhook.MrSFastTranslation.Moble this$0 -> a
+    void <init>(com.mhook.MrSFastTranslation.Moble) -> <init>
+    void beforeHookedMethod(de.robv.android.xposed.XC_MethodHook$MethodHookParam) -> beforeHookedMethod
+com.mhook.MrSFastTranslation.Moble$100000006 -> com.mhook.MrSFastTranslation.g:
+    com.mhook.MrSFastTranslation.Moble this$0 -> a
+    java.lang.String val$url -> b
+    java.lang.String val$str -> c
+    android.content.Context val$ct -> d
+    int val$x -> e
+    int val$y -> f
+    android.content.BroadcastReceiver val$broadcastreceiver -> g
+    void <init>(com.mhook.MrSFastTranslation.Moble,java.lang.String,java.lang.String,android.content.Context,int,int,android.content.BroadcastReceiver) -> <init>
+    void run() -> run
+com.mhook.MrSFastTranslation.Moble$100000006$100000005 -> com.mhook.MrSFastTranslation.h:
+    com.mhook.MrSFastTranslation.Moble$100000006 this$0 -> a
+    android.content.Context val$ct -> b
+    int val$x -> c
+    int val$y -> d
+    java.lang.String val$str1 -> e
+    android.content.BroadcastReceiver val$broadcastreceiver -> f
+    void <init>(com.mhook.MrSFastTranslation.Moble$100000006,android.content.Context,int,int,java.lang.String,android.content.BroadcastReceiver) -> <init>
+    void run() -> run
+com.mhook.MrSFastTranslation.SettingActivity -> com.mhook.MrSFastTranslation.SettingActivity:
+    android.app.Activity mActivity -> a
+    android.widget.TextView apkDescription -> b
+    android.widget.TextView checken -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    void initID() -> a
+    boolean isat39() -> isat39
+    void <init>() -> <init>
+com.mhook.MrSFastTranslation.SettingActivity$100000000 -> com.mhook.MrSFastTranslation.i:
+    boolean iscancel -> a
+    com.mhook.MrSFastTranslation.SettingActivity this$0 -> b
+    android.widget.Switch val$mSwitch1 -> c
+    android.widget.Switch val$mSwitch2 -> d
+    android.widget.Switch val$mSwitch3 -> e
+    android.widget.Switch val$mSwitch4 -> f
+    android.widget.Switch val$mSwitch5 -> g
+    android.widget.LinearLayout val$LinearLayout1 -> h
+    android.widget.TextView val$TextView1 -> i
+    android.widget.Button val$btn7 -> j
+    android.widget.Switch val$mSwitch6 -> k
+    android.widget.LinearLayout val$LinearLayout2 -> l
+    android.widget.TextView val$TextView2 -> m
+    void <init>(com.mhook.MrSFastTranslation.SettingActivity,android.widget.Switch,android.widget.Switch,android.widget.Switch,android.widget.Switch,android.widget.Switch,android.widget.LinearLayout,android.widget.TextView,android.widget.Button,android.widget.Switch,android.widget.LinearLayout,android.widget.TextView) -> <init>
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.mhook.MrSFastTranslation.SettingActivity$100000001 -> com.mhook.MrSFastTranslation.j:
+    com.mhook.MrSFastTranslation.SettingActivity this$0 -> a
+    void <init>(com.mhook.MrSFastTranslation.SettingActivity) -> <init>
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+com.mhook.MrSFastTranslation.SettingActivity$100000004 -> com.mhook.MrSFastTranslation.k:
+    com.mhook.MrSFastTranslation.SettingActivity this$0 -> a
+    android.widget.Button val$btn1 -> b
+    android.widget.Button val$btn2 -> c
+    android.widget.Button val$btn7 -> d
+    android.widget.EditText val$mEditText2 -> e
+    android.widget.EditText val$mEditText3 -> f
+    android.widget.Button val$btn4 -> g
+    android.widget.Button val$btn5 -> h
+    android.widget.Switch val$mSwitch2 -> i
+    void <init>(com.mhook.MrSFastTranslation.SettingActivity,android.widget.Button,android.widget.Button,android.widget.Button,android.widget.EditText,android.widget.EditText,android.widget.Button,android.widget.Button,android.widget.Switch) -> <init>
+    void onClick(android.view.View) -> onClick
+com.mhook.MrSFastTranslation.SettingActivity$100000004$100000002 -> com.mhook.MrSFastTranslation.l:
+    com.mhook.MrSFastTranslation.SettingActivity$100000004 this$0 -> a
+    java.lang.String val$logstr -> b
+    void <init>(com.mhook.MrSFastTranslation.SettingActivity$100000004,java.lang.String) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.mhook.MrSFastTranslation.SettingActivity$100000004$100000003 -> com.mhook.MrSFastTranslation.m:
+    com.mhook.MrSFastTranslation.SettingActivity$100000004 this$0 -> a
+    void <init>(com.mhook.MrSFastTranslation.SettingActivity$100000004) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.mhook.MrSFastTranslation.Utils.AppUtils -> com.mhook.MrSFastTranslation.a.a:
+    long GetLastUpdateTime(android.content.Context) -> a
+    void ClearSelfDataAll(android.content.Context) -> b
+    void ClearSelfData(android.content.Context,int) -> a
+    void deleteFolder(java.io.File) -> a
+    java.lang.String[] GetInputPkgName(android.content.Context) -> c
+com.mhook.MrSFastTranslation.Utils.IntentUtils -> com.mhook.MrSFastTranslation.a.b:
+    void OpenIntent(android.content.Context,java.lang.String,int,java.lang.String,java.lang.String) -> a
+com.mhook.MrSFastTranslation.Utils.SPUtils -> com.mhook.MrSFastTranslation.a.c:
+    java.lang.String FILE_NAME -> a
+    int MODE -> b
+    void <init>() -> <init>
+    void put(android.content.Context,java.lang.String,java.lang.Object) -> a
+    java.lang.Object get(android.content.Context,java.lang.String,java.lang.Object) -> b
+    void clear(android.content.Context) -> a
+    void <clinit>() -> <clinit>
+com.mhook.MrSFastTranslation.Utils.SPUtils$SharedPreferencesCompat -> com.mhook.MrSFastTranslation.a.d:
+    java.lang.reflect.Method sApplyMethod -> a
+    java.lang.reflect.Method findApplyMethod() -> a
+    void apply(android.content.SharedPreferences$Editor) -> a
+    void <clinit>() -> <clinit>
+com.mhook.MrSFastTranslation.Utils.ShellUtils -> com.mhook.MrSFastTranslation.a.e:
+    com.mhook.MrSFastTranslation.Utils.ShellUtils$CommandResult execCommand$5a8d13dd(java.lang.String[],boolean) -> a
+com.mhook.MrSFastTranslation.Utils.ShellUtils$CommandResult -> com.mhook.MrSFastTranslation.a.f:
+    int result -> a
+    java.lang.String successMsg -> b
+    java.lang.String errorMsg -> c
+    void <init>(int,java.lang.String,java.lang.String) -> <init>
+com.mhook.MrSFastTranslation.Utils.T -> com.mhook.MrSFastTranslation.a.g:
+    android.widget.Toast toast -> a
+    boolean isShow -> b
+    void ShowToast(android.content.Context,java.lang.CharSequence) -> a
+    void <clinit>() -> <clinit>
+com.mhook.MrSFastTranslation.Utils.Utils -> com.mhook.MrSFastTranslation.a.h:
+    android.widget.Toast toast -> a
+    void show(android.content.Context,java.lang.String) -> a
+    void printf(java.lang.String) -> a
+    java.lang.String UnicodeToString(java.lang.String) -> b
+    boolean isjapen(java.lang.String) -> c
+    boolean ischina(java.lang.String) -> d
+    void <clinit>() -> <clinit>
+com.mhook.MrSFastTranslation.Utils.XmlUtils -> com.mhook.MrSFastTranslation.a.i:
+    java.lang.String filepath -> a
+    void <init>() -> <init>
+    void <init>(java.lang.String,java.lang.String) -> <init>
+    boolean GetBoolean(java.lang.String,boolean) -> a
+    java.lang.String GetString(java.lang.String,java.lang.String) -> a
+    java.lang.Object Get(java.lang.String,java.lang.Object) -> a
+    void PutString(java.lang.String,java.lang.String) -> b
+    boolean WriteFile$3b99f9ef(java.lang.String,java.lang.String) -> c
+    void <clinit>() -> <clinit>
+com.mhook.MrSFastTranslation.htmlyuan -> com.mhook.MrSFastTranslation.n:
+    java.lang.String getHtml(java.lang.String,java.lang.String) -> a
+    byte[] readInputStream(java.io.InputStream) -> a
+com.mhook.MrSFastTranslation.kqwToast -> com.mhook.MrSFastTranslation.o:
+    android.content.Context mContext -> n
+    android.view.WindowManager mWindowManager -> o
+    android.view.View mKqwToast -> p
+    android.view.WindowManager$LayoutParams mParams -> q
+    java.lang.String strtext -> a
+    int lastX -> b
+    int lastY -> c
+    int paramX -> d
+    int paramY -> e
+    int dx -> f
+    int dy -> g
+    boolean isBemoved -> h
+    long downtime -> i
+    long uptime -> j
+    android.os.Handler mHandler -> k
+    java.lang.Runnable rb_off -> l
+    android.widget.TextView mTextView -> m
+    void <init>(android.content.Context,int,int) -> <init>
+    boolean showKqwToast(java.lang.String) -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    void closeKqwToast() -> a
+    void setDelay(float) -> a
+    void <clinit>() -> <clinit>
+com.mhook.MrSFastTranslation.kqwToast$100000000 -> com.mhook.MrSFastTranslation.p:
+    void <init>() -> <init>
+    void run() -> run
+com.mhook.MrSFastTranslation.layUtils -> com.mhook.MrSFastTranslation.q:
+com.mhook.MrSFastTranslation.layUtils$100000000 -> com.mhook.MrSFastTranslation.r:
+    android.content.Context val$con -> a
+    void <init>(android.content.Context) -> <init>
+    void onClick(android.view.View) -> onClick
+com.mhook.MrSFastTranslation.layUtils$100000001 -> com.mhook.MrSFastTranslation.s:
+    void <init>() -> <init>
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.mhook.MrSFastTranslation.layUtils$100000002 -> com.mhook.MrSFastTranslation.t:
+    android.content.Context val$con -> a
+    void <init>(android.content.Context) -> <init>
+    void onClick(android.view.View) -> onClick
+com.mhook.MrSFastTranslation.layUtils$100000003 -> com.mhook.MrSFastTranslation.u:
+    void <init>() -> <init>
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch

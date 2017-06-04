@@ -1,0 +1,197 @@
+ProGuard, version 5.2.1
+ProGuard is released under the GNU General Public License. You therefore
+must ensure that programs that link to it (com.aide.ui.build.packagingservice, com.tommy.xposed.aidehelper, de.robv.android.xposed, ...)
+carry the GNU General Public License as well. Alternatively, you can
+apply for an exception with the author of ProGuard.
+Reading input...
+Reading program directory [/storage/ext_sd/AppProjects/0xposed/快译/快译/bin/classesrelease]
+Reading library jar [/storage/emulated/0/.aide/android.jar]
+Initializing...
+Note: the configuration refers to the unknown class 'com.android.vending.licensing.ILicensingService'
+Note: com.mhook.MrSFastTranslation.Moble: can't find dynamically referenced class com.android.internal.policy.impl.PhoneWindowManager
+Note: there were 1 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 1 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Ignoring unused library classes...
+  Original number of library classes: 3936
+  Final number of library classes:    485
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/storage/ext_sd/AppProjects/0xposed/快译/快译/proguard/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 38
+  Final number of program classes:    36
+Optimizing...
+  Number of finalized classes:                 34
+  Number of unboxed enum classes:              0
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                14
+  Number of staticized methods:                3
+  Number of finalized methods:                 29
+  Number of removed method parameters:         1
+  Number of inlined constant parameters:       10
+  Number of inlined constant return values:    0
+  Number of inlined short method calls:        0
+  Number of inlined unique method calls:       35
+  Number of inlined tail recursion calls:      0
+  Number of merged code blocks:                1
+  Number of variable peephole optimizations:   127
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       8
+  Number of field peephole optimizations:      1
+  Number of branch peephole optimizations:     36
+  Number of string peephole optimizations:     46
+  Number of simplified instructions:           97
+  Number of removed instructions:              331
+  Number of removed local variables:           102
+  Number of removed exception blocks:          0
+  Number of optimized local variable frames:   42
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 36
+  Final number of program classes:    34
+Optimizing...
+  Number of finalized classes:                 0
+  Number of unboxed enum classes:              0
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                0
+  Number of staticized methods:                0
+  Number of finalized methods:                 0
+  Number of removed method parameters:         1
+  Number of inlined constant parameters:       2
+  Number of inlined constant return values:    0
+  Number of inlined short method calls:        0
+  Number of inlined unique method calls:       0
+  Number of inlined tail recursion calls:      0
+  Number of merged code blocks:                0
+  Number of variable peephole optimizations:   9
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       0
+  Number of field peephole optimizations:      0
+  Number of branch peephole optimizations:     0
+  Number of string peephole optimizations:     2
+  Number of simplified instructions:           5
+  Number of removed instructions:              142
+  Number of removed local variables:           0
+  Number of removed exception blocks:          0
+  Number of optimized local variable frames:   1
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 34
+  Final number of program classes:    34
+Optimizing...
+  Number of finalized classes:                 0
+  Number of unboxed enum classes:              0
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                0
+  Number of staticized methods:                0
+  Number of finalized methods:                 0
+  Number of removed method parameters:         1
+  Number of inlined constant parameters:       0
+  Number of inlined constant return values:    0
+  Number of inlined short method calls:        0
+  Number of inlined unique method calls:       0
+  Number of inlined tail recursion calls:      0
+  Number of merged code blocks:                0
+  Number of variable peephole optimizations:   3
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       0
+  Number of field peephole optimizations:      0
+  Number of branch peephole optimizations:     0
+  Number of string peephole optimizations:     1
+  Number of simplified instructions:           0
+  Number of removed instructions:              14
+  Number of removed local variables:           0
+  Number of removed exception blocks:          0
+  Number of optimized local variable frames:   0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 34
+  Final number of program classes:    34
+Optimizing...
+  Number of finalized classes:                 0
+  Number of unboxed enum classes:              0
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                0
+  Number of staticized methods:                0
+  Number of finalized methods:                 0
+  Number of removed method parameters:         0
+  Number of inlined constant parameters:       0
+  Number of inlined constant return values:    0
+  Number of inlined short method calls:        0
+  Number of inlined unique method calls:       0
+  Number of inlined tail recursion calls:      0
+  Number of merged code blocks:                0
+  Number of variable peephole optimizations:   1
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       0
+  Number of field peephole optimizations:      0
+  Number of branch peephole optimizations:     0
+  Number of string peephole optimizations:     1
+  Number of simplified instructions:           0
+  Number of removed instructions:              9
+  Number of removed local variables:           0
+  Number of removed exception blocks:          0
+  Number of optimized local variable frames:   0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 34
+  Final number of program classes:    34
+Optimizing...
+  Number of finalized classes:                 0
+  Number of unboxed enum classes:              0
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                0
+  Number of staticized methods:                0
+  Number of finalized methods:                 0
+  Number of removed method parameters:         0
+  Number of inlined constant parameters:       0
+  Number of inlined constant return values:    0
+  Number of inlined short method calls:        0
+  Number of inlined unique method calls:       0
+  Number of inlined tail recursion calls:      0
+  Number of merged code blocks:                0
+  Number of variable peephole optimizations:   1
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       0
+  Number of field peephole optimizations:      0
+  Number of branch peephole optimizations:     0
+  Number of string peephole optimizations:     1
+  Number of simplified instructions:           0
+  Number of removed instructions:              9
+  Number of removed local variables:           0
+  Number of removed exception blocks:          0
+  Number of optimized local variable frames:   0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 34
+  Final number of program classes:    34
+Obfuscating...
+Printing mapping to [/storage/ext_sd/AppProjects/0xposed/快译/快译/proguard/mapping.txt]...
+Writing output...
+Preparing output directory [/storage/ext_sd/AppProjects/0xposed/快译/快译/bin/classesreleasetmp]
+  Copying resources from program directory [/storage/ext_sd/AppProjects/0xposed/快译/快译/bin/classesrelease]
+Printing classes to [/storage/ext_sd/AppProjects/0xposed/快译/快译/proguard/dump.txt]...

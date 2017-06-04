@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mhook.MrSFastTranslation"
+    android:versionCode="39"
+    android:versionName="2.7.2" >
+
+    <uses-sdk 
+        android:minSdkVersion="14" 
+        android:targetSdkVersion="21" />
+
+    <application
+		android:label="Xp快译"
+		android:icon="@drawable/icon"
+		>
+    <activity
+		
+		android:windowSoftInputMode="adjustUnspecified|stateHidden"
+		android:name=".SettingActivity">
+		<intent-filter>
+			<action android:name="android.intent.action.MAIN" />
+			<category android:name="de.robv.android.xposed.category.MODULE_SETTINGS"/>
+
+		</intent-filter>
+		
+		
+		</activity>
+		<activity-alias
+			android:name=".SettingActivity-alias"
+			android:enabled="true"
+			android:targetActivity=".SettingActivity">
+			<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+			</activity-alias>
+			
+        <!--添加标识-->
+        <meta-data 
+			android:name="xposedmodule" 
+			android:value="true"/>
+
+        <!--载入Hook模块之后显示的信息-->
+   		<meta-data
+			android:name="xposeddescription"
+			android:value="一个简单的翻译小模块." />
+
+   		<!--规定jar包的版本信息-->
+    	<meta-data
+			android:name="xposedminversion"
+			android:value="30" />
+        
+		
+		
+    </application>
+
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+</manifest>
